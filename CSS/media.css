@@ -1,0 +1,159 @@
+@media (min-width:800px){
+  /*======= header start ======= */
+  
+  #headerMenu{
+    width: 80vw;
+    padding:0;
+    top: 60px;
+    position: fixed;
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 13px;
+    z-index: 20000;
+  }
+  .sticky {
+    top: 0 !important;
+    width: 100vw !important;
+    padding:12px 10vw !important;
+  }
+  nav{
+      all: unset;
+   }
+   nav>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   }
+   #menuIcon{
+     display: none;
+     }
+  #closeIcon{
+    display: none;
+  }
+   #topp{
+    top: 0px;
+     display: block;
+     height: 20px;
+     align-items: center;
+     display: flex;
+     width: 85%;
+     justify-content: space-between;
+     font-size:15px;
+     color: white;
+     position: fixed;
+     padding-bottom: 10px;
+   }
+   .topdown{
+     display: flex;
+     gap: 30px;
+   }
+
+  /*========== header end===========  */
+
+  /*======== background atachment start ======== */
+   
+    .section1{
+      padding-right: 30%;
+    }
+    .banner>img{
+      height: 100vh;
+    }
+    .bannerpage{
+      padding: 150px 0px  ;
+      width: 70vw;
+    }
+     .bannerpage1{
+       font-size: 15px;
+     }
+     .bannerpage2{
+        font-size: 60px;
+        margin: 20px 0px;
+     }
+     .bannerpage3{
+         font-size: 14px;
+           padding: 0px 100px;
+         line-height: 26px;
+          margin-bottom: 30px;
+     }
+
+    /* ======background atachment start ======== */
+
+    /*===== backbround attachment down start ==== */
+    .iii{
+      display: block;
+      position: absolute;
+      top: 150px ;
+      right:0px;
+    }
+    
+    /*====== background attachment down end  ====== */
+
+    /* enjoy start  */
+
+    .downlal1{
+      width: 40%;
+    }
+    .downlal2{  
+      display: block;
+      width: 40%;
+      right: 0px;
+    }
+    .allimage{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .allimage>div{
+      width: 20%;
+    }
+    /* enjoy end  */
+
+    /* catagory of available items start  */
+
+    .section3{
+      display: flex;
+    }
+    .fif1{
+      width: 55%;
+    }
+     .fif2{
+       width: 600px;
+       height: 500px;
+       position: relative;
+}
+
+      /* catagory of available items end  */
+
+    /* latest post start    */
+    .lala{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .lala>div{
+      width: 30%;
+    }
+/* latest post end  */
+    
+
+
+
+/* footer start  */
+
+  }
+  .footer1{
+    width: 100% !important;
+    flex-direction: row !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 30px;
+  }
+  .fix>input{
+    width: 340px;
+  }
+  .footer1>div{
+    width: 31% !important;
+  }
+
+  /* footer end  */
+  
