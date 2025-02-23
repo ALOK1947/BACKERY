@@ -88,20 +88,22 @@ nav>ul{
      position: relative;
      position: fixed;
      z-index: -3333;
-     width: 100vh;
+     width: 100vw;
+  
   }
   .banner>img{
     width: 100vw;
-    height: 100vh;
-    filter: brightness(40%);
+    object-fit: cover;  
+    height: 70vh;
+    filter: brightness(50%);
   }
   .bannerpage{
     text-align: center;
     margin: auto;
     color: white;
-    padding: 50px 30px;
+    padding: 30px 30px;
     width: 85vw;
-    height: 100vh;
+    height: 70vh;
   }
   .bannerpage1{
    font-size:15px;
@@ -136,7 +138,7 @@ nav>ul{
     background-color: inherit;
   }
  
-/*===------------- backgroud atacment start  -----*/
+/*===------------- backgroud atacment   -----*/
  
 
 /*-------------- background atachment down start--------  */
@@ -394,6 +396,7 @@ nav>ul{
   text-align: center;
   padding: 10px;
   font-weight: bold;
+  overflow: hidden;
 }
 .bold2{
   color: #777780;
@@ -410,65 +413,85 @@ padding: 10px;
 
 /* footer start  */
 
-footer{
-  padding: 1% 10%;
-  background-color:#04091E;
+footer {
+  padding: 80px 10%;
+  background-color: #04091E;
   color: white;
   width: 100%;
   font-size: small;
-
 }
-.footer1{
- width: 100% !important;
+
+.footer1 {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  padding:50px;
-   justify-content: space-between;
-   gap: 30px; 
+  justify-content: space-between;
+  gap: 30px;
 }
-.footer1>div{
- width: 100% !important;
+
+.footer1 > div {
+  width: 100%;
   padding-bottom: 40px;
-  color:white;
-} 
-.footerz{
-  padding: 0px 0px 30px 0px;
+}
+
+.footerz {
   font-size: 20px;
   color: white;
   font-weight: bold;
-} 
-.fix{
-display: flex;
-padding-top: 10px;
-align-items: center;
+  margin-bottom: 10px;
 }
-.fix>input{
+
+.fhingt {
+  line-height: 23px;
+}
+
+.fix {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.fix > input {
   height: 40px;
   width: 200px;
   padding: 5px;
+  border: none;
+  border-radius: 4px 0 0 4px;
 }
-footer>div>div>div{
-  padding: 15px 0px;
-}
-.fhingt{
-  line-height: 23px;
-}
-.tir{
-  width: 40px ;
-  height: 32px;
-  background-color:burlywood;
+
+.tir {
+  width: 40px;
+  height: 40px;
+  background-color: burlywood;
   text-align: center;
-  padding-top: 7px;  
-} 
- .f{
+  padding-top: 9px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.f {
   display: flex;
-  justify-content: start;
-  gap: 23px;
-  padding: 20px 0px;
-} 
- .cop{
-   padding: 0px 10% 50px 10%;
-   font-size: 12px;
-text-align: center;} 
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.f i {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.f i:hover {
+  color: burlywood;
+}
+
+.cop {
+  padding: 20px 0;
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid #333;
+}
+
+
+
 /* footer end  */
