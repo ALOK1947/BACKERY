@@ -41,7 +41,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 25px;
-  
+
 }
 nav{
     width: 250px;
@@ -76,7 +76,6 @@ nav>ul{
 #topp{
   width: 100vw;
   display: none;
-  padding: 42px;
   transition: .5s;
 }
 /*------------ header end----------*/
@@ -134,8 +133,9 @@ nav>ul{
     margin: auto;
   }
   .bannerpage4:hover{
-    border: 2px solid white;
+    border: 1px solid white;
     background-color: inherit;
+    transition: .5s;
   }
  
 /*===------------- backgroud atacment   -----*/
@@ -143,7 +143,7 @@ nav>ul{
 
 /*-------------- background atachment down start--------  */
   .whiteall{
-    background-color: hwb(0 89% 9%);
+    background-color: whitesmoke;
     width: 100%;
     padding: 10%;
     position: relative;
@@ -180,6 +180,12 @@ nav>ul{
   width: 170px;
   margin: 25px 25px 30px 0px;
 }
+.section1e:hover{
+  border: 1px solid goldenrod;
+  background-color: inherit;
+  transition: .5s;
+  color: goldenrod;
+}
 .iii{
   display: none;
 }
@@ -196,6 +202,7 @@ nav>ul{
   }
   .allimage>div>div>img:hover{
     transform: scale(1.1);
+    transition: .5s;
   }
   .allimage{
     display: flex;
@@ -244,6 +251,7 @@ nav>ul{
   .bold1:hover{
     color: burlywood;
   }  
+  
 
    /*---------- categery of available aitems end ---------  */
 
@@ -259,22 +267,29 @@ nav>ul{
  }
  .firstline1{
   position: absolute;
-  filter: brightness(70%);
+  filter: brightness(50%);
  }
- .firstline2{
-  position: absolute;
- }
+
  .tophead{
   padding: 50px ;
+  width: 100vw;
+  margin: auto;
+  top: 0px;
+  position:absolute;
   text-align: center;
+  
  }
  .tophead>div:first-child{
+  width: 100%;
   font-size: 24px;
   font-weight: bold;
+  color: white;
+ 
  }
  .tophead>div:last-child{
   padding: 10px;
   font-size: 11px;
+  padding: 30px 0px;
  }
  .downlal1{
   font-weight: normal;
@@ -283,12 +298,15 @@ nav>ul{
   font-weight: normal;
   display: none;
  }
+
  .slide{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 100px;
   flex-direction: row;
-  padding: 50px 10%;
+  padding: 200px 10% 0px 10%;
+  overflow: hidden;
  }
  .disflex1{
   display: flex;
@@ -349,12 +367,15 @@ nav>ul{
 }
 
 .lala>div>div>img{
-  border-radius:0%;
+  height: 200px;
+  border-radius:2%;
   text-align: center;
   width: 100%;
+  overflow: hidden;
 }
 .lala>div>div>img:hover{
   transform: scale(1.1);
+  transition: .9s;
 }
 .lala{
   display: flex;
@@ -369,45 +390,59 @@ nav>ul{
 }
 .lala>div{
   width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.lala>div>div:first-child{
+  height: 200px;
   overflow: hidden;
 }
 .lala>div>div{
   width: 100%;
-  text-align: center;
+
 }
 .section2aaa{
   font-size: 30px;
   padding-top: 40px;
   text-align: center;
   font-weight: bold;
-  color: rgb(108, 94, 94);
+  color: rgb(14, 13, 13);
 }
 .section2bbb{
   text-align: center;
-  padding: 15px;
+  padding: 30px 0px 70px 0px;
+  color: #777780;
 }
 .bold1{
-  font-size:24px;
-  font-weight: bold;
-  color: rgb(98, 98, 98);
-  text-align: center;
+  font-size:16px;
+  text-align: justify;
+  color: rgb(8, 7, 7);
   padding: 10px;
+  text-align: left;
   font-weight: bold;
   overflow: hidden;
 }
 .bold2{
-  color: #777780;
-  text-align: center;
-  font-size: 13px;
+  color: #6e6e7a;
+  font-size: 14px;
+  text-align: start;
 padding: 10px;
 }
 .bold1:hover{
   color: burlywood;
 }
-
+.imoji{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.imoji>div{
+  display: flex;
+  font-size: 14px;
+  gap: 5px;
+}
 /* latest post end  */
 
 
@@ -491,7 +526,5 @@ footer {
   text-align: center;
   border-top: 1px solid #333;
 }
-
-
 
 /* footer end  */

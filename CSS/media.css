@@ -1,6 +1,8 @@
 @media (min-width:800px){
   /*======= header start ======= */
   
+
+
   #headerMenu{
     width: 80vw;
     padding:0;
@@ -13,8 +15,6 @@
   }
   .sticky {
     top: 0 !important;
-    width: 100vw !important;
-    padding:12px 10vw !;
   }
   nav{
       all: unset;
@@ -33,15 +33,17 @@
    #topp{
     top: 0px;
      display: block;
-     height: 20px;
-     align-items: center;
      display: flex;
-     width: 85%;
+     width: 100%;
+     padding: 0px 10.5%;
+     padding-top: 25px;
+     align-items: flex-start;
      justify-content: space-between;
      font-size:15px;
      color: white;
      position: fixed;
-     padding-bottom: 10px;
+     height: 84px;
+     transition: .5s;
    }
    .topdown{
      display: flex;

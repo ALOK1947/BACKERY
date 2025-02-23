@@ -1,4 +1,32 @@
 
+  var winWidth = $(window).width();
+  
+  if(winWidth > 800){
+      $('.slide').slick({
+          dots: true,
+          infinite: true,
+          speed: 400,
+          slidesToShow: 2,         // बड़े स्क्रीन पर दो स्लाइड दिखाएँ
+          adaptiveHeight: true,
+          autoplay: true,
+          autoplaySpeed: 1100,
+          fade: false,
+          arrows: true
+      });
+  } else {
+      $('.slide').slick({
+          dots: true,
+          infinite: true,
+          speed: 400,
+          slidesToShow: 1,         // छोटे स्क्रीन पर एक स्लाइड दिखाएँ
+          adaptiveHeight: true,
+          autoplay: true,
+          autoplaySpeed: 1100,
+          fade: false,
+          arrows: true
+      });
+  }
+
 var overlay = document.querySelector("#overlay");
 var menuIcon = document.querySelector("#menuIcon");
 var closeIcon = document.querySelector("#closeIcon");
@@ -32,9 +60,9 @@ const header = document.querySelector('#headerMenu');
 const topText = document.querySelector('#topp');
 if (document.documentElement.scrollTop > 50) {
 header.classList.add('sticky');
-topText.style.opacity = "0"; 
+topText.style.backgroundColor ="white";
 } else {
 header.classList.remove('sticky');
-topText.style.opacity = "1"; 
+topText.style.backgroundColor ="";
 }
 });
