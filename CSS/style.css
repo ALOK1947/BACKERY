@@ -18,7 +18,7 @@ a{
   background-color: rgba(0,0,0, 0.5);
   position: fixed;
   display: none;
-  z-index: 9999;
+  z-index: 999999;
 }
 .overlaylal{
   transform: translate(0%) !important;
@@ -33,6 +33,7 @@ header{
   position: sticky;
   top: 0px;
   background-color: white;
+  z-index: 99999;
 }
 #headerMenu{
   display: flex;
@@ -51,11 +52,10 @@ nav{
     padding:40px 30px;
     top: 0px;
     left: 0px;
-    z-index:100;
+    z-index:100000000000000;
     background-color: rgba(0,0,0, 0.9);
     color: white;
     transform: translate(-100%);
-    z-index: 9999999999999999999;
 }
 nav>ul{
   display: flex;
